@@ -1,0 +1,52 @@
+body {
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen",
+  "Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+code {
+  font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",
+  monospace;
+}
+.name {
+  font-family:"Pacifico",cursive
+}
+body
+{
+  font-family:"Poppins",sans-serif
+}
+.movie-list
+{
+  padding:24px;
+  display:flex;
+  grid-gap:24px;
+  gap:24px;
+  flex-wrap:wrap;
+  justify-content:space-evenly
+}
+.movie-container
+{
+  width:340px
+}
+.movie-specs
+{
+  display:flex;
+  align-items:center;
+  justify-content:space-between
+}
+.movie-poster
+{
+  height:500px;
+  width:340px;
+  object-fit:cover;
+  background-color:teal}
+  .movie-rating
+  {
+    font-size:18px;
+    font-weight:400
+  }
+  .movie-name
+  {
+    font-size:24px
+  }
